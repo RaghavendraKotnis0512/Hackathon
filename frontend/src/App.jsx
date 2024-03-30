@@ -1,16 +1,18 @@
+import Header from "./Header"
+import Sidebar from "./Sidebar"
+import Product from "./Product"
 
-import './App.css'
-
-function App() {
-  
-
+export default function App() {
   return (
+    <div className="app">
+    <Header/>
+    <Sidebar />
+    <div className="xyz">
+    <Product />
+    <Product />
     
-    <div>
-    <h1 className='bg-red-500'>hello</h1>
+    </div>
     </div>
     
   )
 }
-
-export default App
